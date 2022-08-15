@@ -22,6 +22,8 @@ function divisibleBy2() {
     let number = parseInt(document.getElementById("number").value);
     if (number %2 == 0) {
         return document.getElementById("resultDivisible").innerHTML= "YES";
+    } else {
+        return document.getElementById("resultDivisible").innerHTML= "NO";
     }
 }
 
